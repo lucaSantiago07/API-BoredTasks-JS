@@ -6,7 +6,7 @@
 const consolid =  async function consolidDataInArray (arrayList) {
     
     let arrayAnswer = []
-
+ 
     for (let type = 0;type<arrayList.length;type++) {
         let participantsAvaliable = ''
         let erros = 0

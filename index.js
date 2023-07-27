@@ -12,7 +12,7 @@ menu()
 function menu (arrays, identifier = 3) {
     console.log (identifier)
     let choice = parseInt(prompt('O que deseja fazer?\n1-Verificar atividades Salvas\n2-Sortear nova atividade\n3-Excluir todas as atividades salvas\n4-Salvar atividades atuais\n5-Sair do programa'))
-   if (choice == 1) {
+   if (choice == 1) { 
     const saveActivities = JSON.parse(localStorage.getItem(('Activities')))
     let answer = ''
     for (let i = 0;i<saveActivities.length;i++) {

@@ -5,7 +5,7 @@ export async function chooseActivity (arrayOfAct, menuApp) {
             this.answer = answer
         }
     }
-    let arrayOfQuestion = []
+    let arrayOfQuestion = [] 
     let secondQuestion
     arrayOfQuestion.push(new Questions(parseInt(prompt('How many people are with you? \n 1, 2, 3, 4, 5, 8'))))
     arrayOfQuestion.push(new Questions(parseInt(prompt(`What would you like to do? \n0 - education;\n 1 - recreational;\n 2 - social;\n 3 - diy;\n 4 - charity;\n 5 - cooking; `) )))
